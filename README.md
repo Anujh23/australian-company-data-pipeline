@@ -57,5 +57,9 @@ This project builds a simple data pipeline to combine business information from 
   - australian_companies.csv: Sample output of processed data.
   - abr.csv: (Not included due to file size limits)
 
-- **test/**:
-  - Scripts and notebooks to validate schema and data integrity.
+- **data-quality check/**:
+  Scripts to test schema and data consistency.
+  Notebooks to validate schema, duplicates, and nulls.
+
+- **setup-postgres notebook**:  
+  Contains code to set up the PostgreSQL database and schema.
