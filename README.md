@@ -1,10 +1,10 @@
-#Australian Company Data Pipeline
+# 📊 Australian Company Data Pipeline
 
 This project builds a simple data pipeline to combine business information from **Common Crawl** and **ABR (Australian Business Register)** using **Python, PySpark, and PostgreSQL**.
 
 ---
 
-##What This Project Does
+## 🚀 What This Project Does
 
 - Gets 200,000+ Australian company websites from **Common Crawl**
 - Extracts official company info from **ABR XML files**
@@ -14,7 +14,7 @@ This project builds a simple data pipeline to combine business information from 
 
 ---
 
-##Data Sources
+## 🧾 Data Sources
 
 1. **Common Crawl**  
    - URL, company name, and industry (if available)  
@@ -26,15 +26,14 @@ This project builds a simple data pipeline to combine business information from 
 
 ---
 
-##Tools Used
+## 🛠️ Tools Used
 
 - Python 🐍
 - Apache Spark ⚡
 - PostgreSQL 🐘
 - Jupyter Notebooks 📓
+- dbt (optional for data modeling)
 - BeautifulSoup & Requests (for scraping)
 
 ---
-
-
 
