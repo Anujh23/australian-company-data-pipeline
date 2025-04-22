@@ -57,7 +57,7 @@ This project builds a simple data pipeline to combine business information from 
   - australian_companies.csv: Sample output of processed data.
   - abr.csv: (Not included due to file size limits)
 
-- **data-quality check/**:
+- **data-quality check**:
   Scripts to test schema and data consistency.
   Notebooks to validate schema, duplicates, and nulls.
 
