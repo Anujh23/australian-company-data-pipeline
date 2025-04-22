@@ -41,3 +41,21 @@ This project builds a simple data pipeline to combine business information from 
 
 ---
 
+
+## 🧱 Project Structure 
+- **Extraction**:  
+  Microservices or Fabric notebooks for extracting data from websites.
+
+- **Transformation**:
+  - **Bronze Layer**: Unzipping ABR XML zip files and storing as CSV.
+  - **Gold Layer**: Normalizing and deduplicating data, then joining Common Crawl and ABR datasets.
+
+- **Loading**:
+  Final clean data is loaded into the PostgreSQL database.
+
+- **data/**:
+  - australian_companies.csv: Sample output of processed data.
+  - abr.csv: (Not included due to file size limits)
+
+- **test/**:
+  - Scripts and notebooks to validate schema and data integrity.
