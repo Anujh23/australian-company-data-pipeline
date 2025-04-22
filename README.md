@@ -13,6 +13,10 @@ This project builds a simple data pipeline to combine business information from 
 - Checks data quality with basic tests
 
 ---
+##  Architecture
+
+![Firmable-architecture](https://github.com/user-attachments/assets/6d293dd6-6708-4ed0-8bb6-aa422e0f3f76)
+
 
 ## 🧾 Data Sources
 
